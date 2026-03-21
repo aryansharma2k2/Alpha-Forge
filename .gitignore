@@ -1,0 +1,30 @@
+# README (added back when ready to publish)
+README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Env
+.env
+*.local
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Vector store data
+qdrant_data/
+
+# OS
+.DS_Store
+Thumbs.db
